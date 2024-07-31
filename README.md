@@ -10,7 +10,8 @@ This Python script facilitates copy trading between two MetaTrader 5 accounts. A
 ## Getting Started
 
 ### Prerequisites
-- MetaTrader 5 installed and configured
+- MetaTrader 5 installed
+- In MetaTrader 5 => Options => Expert Advisors, only **Allow algorithmic trading** and **Allow DLL imports** should be checked!
 
 ### Installation
 
