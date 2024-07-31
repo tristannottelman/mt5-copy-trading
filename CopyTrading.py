@@ -25,7 +25,7 @@ default_data = {
 if not os.path.exists(file_path):
     with open(file_path, 'w') as json_file:
         json.dump(default_data, json_file, indent=4)
-    print(f"{file_path} created.\n\nNow fill in the account credentials!")
+    print(f"{file_path} created.\n\nPlease enter the accounts' credentials!")
     exit()
 else:
     with open(file_path, 'r') as json_file:
