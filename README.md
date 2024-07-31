@@ -65,7 +65,7 @@ This Python script facilitates copy trading between two MetaTrader 5 accounts. A
 ### Usage
 1. Run the script:
     ```bash
-    python copy_trading.py
+    python CopyTrading.py
     ```
 2. The script will start monitoring trades on account 1 and copy them to account 2, provided that stop loss and take profit are set.
 
